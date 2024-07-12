@@ -4,10 +4,13 @@ attrs>=21.3.0
 duet>=0.2.8
 matplotlib~=3.0
 networkx>=2.4
-numpy~=1.22
+numpy~=1.22.2
 pandas
 sortedcontainers~=2.0
 scipy~=1.0
 sympy
 typing_extensions>=4.2
 tqdm
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
