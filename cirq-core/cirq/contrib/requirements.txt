@@ -6,3 +6,4 @@ pylatex~=1.4
 # quimb
 quimb~=1.7
 opt_einsum
+numpy>=1.21.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
