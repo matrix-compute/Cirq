@@ -11,3 +11,4 @@ scipy~=1.0
 sympy
 typing_extensions>=4.2
 tqdm
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
